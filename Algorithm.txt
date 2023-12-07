@@ -1,0 +1,13 @@
+EASY 1
+
+Algorithm lengthOfLastWord(s):
+    1. Trim the input string s to remove leading and trailing spaces.
+    2. Find the last space index in the trimmed string. Let lastSpaceIndex = s.lastIndexOf(' ').
+    3. If lastSpaceIndex is -1, set the length of the last word to the length of the trimmed string.
+    4. If lastSpaceIndex is not -1, set the length of the last word to the difference between the length of the trimmed string and lastSpaceIndex.
+    5. Return the length of the last word as the result.
+
+Algorithm main():
+    1. Take a string input s from the user.
+    2. Call lengthOfLastWord(s) and store the result.
+    3. Display the result as the length of the last word.
