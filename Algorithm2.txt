@@ -1,0 +1,23 @@
+MEDIUM 2
+
+Input: Take the length of the array n and the elements of the array nums from the user.
+
+Initialize: Initialize two candidates (candidate1 and candidate2) and their corresponding counts (count1 and count2) to 0.
+
+Voting Process:
+
+Iterate through the array nums.
+1.If the current element is equal to candidate1 or candidate2, increment the corresponding count.
+2.If both counts are 0, update candidate1 to the current element and set count1 to 1.
+3.If only one count is 0, update the other candidate and count.
+If neither count is 0, decrement both counts.
+Count Occurrences:
+
+Count the occurrences of candidates in the array.
+Check for Majority Elements:
+
+1.If the count of candidate1 is greater than n/3, add it to the result.
+2.If the count of candidate2 is greater than n/3, add it to the result.
+3.Output: Display or return the elements appearing more than n/3 times as the result.
+
+This algorithm has a time complexity of O(n) and space complexity of O(1).

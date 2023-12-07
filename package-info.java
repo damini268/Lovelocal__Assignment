@@ -1,1 +1,1 @@
-package internship;
+package Internshipp;

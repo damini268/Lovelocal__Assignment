@@ -1,0 +1,17 @@
+Hard 3
+
+Input: Take an integer n from the user.
+
+Counting Digit 1:
+
+1.Initialize count to 0.
+2.Iterate through powers of 10 (1, 10, 100, ...) until the current power is greater than n.
+For each power of 10 (i), calculate the count of digit 1 in the current place (unit, tens, hundreds, ...).
+Update count with the calculated count.
+3.Output: Display or return the total number of digit 1 appearing as the result.
+
+This algorithm has a time complexity of O(log n) and a space complexity of O(1). The code uses long data type to handle large values of n.
+
+
+
+
